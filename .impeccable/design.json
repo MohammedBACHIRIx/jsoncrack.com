@@ -1,0 +1,17 @@
+{
+  "project": "jsoncrack",
+  "philosophy": "The Professional Workbench",
+  "rules": [
+    "Content > Chrome: App chrome must recede.",
+    "Surfaces are flat at rest.",
+    "Depth is strictly functional (drag, hover, active)."
+  ],
+  "colors": {
+    "background": "#1A1B1E",
+    "primary": "#00E5FF"
+  },
+  "fonts": {
+    "primary": "Inter",
+    "mono": "Fira Code"
+  }
+}

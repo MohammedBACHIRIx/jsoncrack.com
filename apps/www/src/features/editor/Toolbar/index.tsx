@@ -22,8 +22,9 @@ const StyledToDiagramLink = styled.a`
   padding: 4px 10px;
   border-radius: 4px;
   white-space: nowrap;
-  background: linear-gradient(135deg, #ff75b7 0%, #fed761 100%);
-  color: #1a1a1a;
+  background: transparent;
+  color: ${({ theme }) => theme.INTERACTIVE_NORMAL};
+  border: 1px solid ${({ theme }) => theme.BACKGROUND_MODIFIER_ACCENT || "rgba(128, 128, 128, 0.3)"};
   text-decoration: none;
   transition: opacity 0.15s ease;
 
